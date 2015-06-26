@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imagefilters", "imagefilters.csproj", "{12155222-CBCE-44D5-B4C1-868B0B7796C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageFilter", "ImageFilter\ImageFilter.csproj", "{FCBC69E4-8D58-4971-A3D1-6A5FB80503FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfTest", "..\PerfTest\PerfTest.csproj", "{6EE651C6-69E0-4DA5-8F40-DEF12594279F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{12155222-CBCE-44D5-B4C1-868B0B7796C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12155222-CBCE-44D5-B4C1-868B0B7796C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12155222-CBCE-44D5-B4C1-868B0B7796C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBC69E4-8D58-4971-A3D1-6A5FB80503FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBC69E4-8D58-4971-A3D1-6A5FB80503FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBC69E4-8D58-4971-A3D1-6A5FB80503FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBC69E4-8D58-4971-A3D1-6A5FB80503FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE651C6-69E0-4DA5-8F40-DEF12594279F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE651C6-69E0-4DA5-8F40-DEF12594279F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE651C6-69E0-4DA5-8F40-DEF12594279F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE651C6-69E0-4DA5-8F40-DEF12594279F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

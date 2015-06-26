@@ -23,7 +23,7 @@ namespace imagefilters
 
         public void ApplyFilter(Filter filter)
         {
-            filtered = filter.Apply(original);
+            filtered = filter.Apply(filtered??original);
             Invalidate();
         }
 

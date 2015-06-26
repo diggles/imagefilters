@@ -1,3 +1,14 @@
+Performance Characteristics
+============
+5 Iteration Benchmarks
+
+Initial: 41 seconds
+Optimised: 4 seconds
+
+Apparently Bitmap.Width and Bitmap.Height are very expensive operations
+The filter loop has been updates to refer to a pre-calculated value for a factor of 10 performance increase 
+
+
 Convolution Filtering
 ============
 An example implementation of convolution filtering in C#
